@@ -1,0 +1,73 @@
+#center {
+    text-align: center;
+}
+
+body {
+    background-color: #6C757D;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 310px;
+    height: 170px;
+    background-color: #000000;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-right: 210px;
+}
+
+.retangle {
+    width: 1250px;
+    height: 170px;
+    background-color: #000000;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.textbox {
+    width: 1790px;
+    height: 700px;
+    margin-left: 60px;
+    background-color: #000000;
+    position: relative;
+    border-radius: 10px;
+}
+
+.square::before {
+    content: "login";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+
+.retangle::before {
+    content: "Site bacana do playba XD";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+
+.textbox::before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra nulla condimentum bibendum aliquet. Etiam ultrices placerat nunc ac elementum. Sed facilisis pulvinar erat sed ornare. Etiam suscipit pharetra libero, a placerat leo tincidunt sit amet. Integer tristique, dolor consequat tempus sagittis, lectus nisi dictum leo, eget tristique turpis sapien eu quam. Praesent maximus eros neque, eu vestibulum lorem imperdiet non. Aenean quis orci nisi. Nulla ut dictum augue. Sed pulvinar rhoncus nunc faucibus egestas. In maximus velit et felis auctor varius. Curabitur finibus ipsum non tortor efficitur, ac commodo elit aliquet. Fusce posuere sem congue nulla imperdiet dictum. Fusce interdum lobortis massa et sagittis. Vivamus tincidunt, ligula quis semper tincidunt, erat sem convallis ex, et sollicitudin sapien risus et sapien. Donec venenatis, dui et semper porttitor, leo nisl lobortis mauris, ac tempor risus leo et sapien.";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
